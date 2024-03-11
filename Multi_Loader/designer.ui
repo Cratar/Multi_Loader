@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Designer</class>
+ <widget class="QDialog" name="Designer">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>400</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>400</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: url(:/fgsd/pizag.jpg)</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>0</y>
+     <width>111</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Historic</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;</string>
+   </property>
+   <property name="text">
+    <string>Designer</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>351</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QPushButton" name="pushButton_AutoCAD">
+      <property name="styleSheet">
+       <string notr="true">  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .1em 1em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: rgb(56, 49, 255);
+  border-radius: 6px;
+  background: linear-gradientrgb rgb(60, 60, 220); 
+  transition: 0.2s;</string>
+      </property>
+      <property name="text">
+       <string>Sweet Home 3D</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Picture/dfgad.qrc">
+        <normaloff>:/fgsd/1.png</normaloff>:/fgsd/1.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="pushButton_Blender">
+      <property name="styleSheet">
+       <string notr="true">  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .1em 1em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: rgb(56, 49, 255);
+  border-radius: 6px;
+  background: linear-gradientrgb rgb(60, 60, 220); 
+  transition: 0.2s;</string>
+      </property>
+      <property name="text">
+       <string>Blender</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Picture/dfgad.qrc">
+        <normaloff>:/new/prefix1/blend.png</normaloff>:/new/prefix1/blend.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="pushButton_SketchUp">
+      <property name="styleSheet">
+       <string notr="true">  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .1em 1em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: rgb(56, 49, 255);
+  border-radius: 6px;
+  background: linear-gradientrgb rgb(60, 60, 220); 
+  transition: 0.2s;</string>
+      </property>
+      <property name="text">
+       <string>SketchUp</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Picture/dfgad.qrc">
+        <normaloff>:/new/prefix1/Skethup.jpg</normaloff>:/new/prefix1/Skethup.jpg</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QPushButton" name="pushButton_VectorWorks">
+      <property name="styleSheet">
+       <string notr="true">  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .1em 1em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: rgb(56, 49, 255);
+  border-radius: 6px;
+  background: linear-gradientrgb rgb(60, 60, 220); 
+  transition: 0.2s;</string>
+      </property>
+      <property name="text">
+       <string>VectorWorks 2023</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Picture/dfgad.qrc">
+        <normaloff>:/fgsd/Vector.png</normaloff>:/fgsd/Vector.png</iconset>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Picture/dfgad.qrc"/>
+ </resources>
+ <connections/>
+</ui>

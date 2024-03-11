@@ -1,0 +1,44 @@
+<RCC>
+    <qresource prefix="/fgsd">
+        <file>PyCharm_Icon.svg (2).png</file>
+        <file>beaver-head.png</file>
+        <file>IJ.jpg</file>
+        <file>Product-Icon.svg</file>
+        <file>QD.png</file>
+        <file>Qt.webp</file>
+        <file>Qt.png</file>
+        <file>i.webp</file>
+        <file>Vector.png</file>
+        <file>1.png</file>
+        <file>github.png</file>
+        <file>8170_lonely-tree-landscape-green_800x600.jpg</file>
+        <file>maik.jpg</file>
+        <file>car.jpg</file>
+        <file>cyb.jpg</file>
+        <file>pizag.jpg</file>
+        <file>wolna.jpg</file>
+    </qresource>
+    <qresource prefix="/new/prefix1">
+        <file>Skethup.jpg</file>
+        <file>Cod.png</file>
+        <file>blend.png</file>
+    </qresource>
+    <qresource prefix="/new/Aydi">
+        <file>Fl.png</file>
+        <file>reaper.png</file>
+        <file>Aud.png</file>
+        <file>Adobe_Audition_CC_icon.png</file>
+    </qresource>
+    <qresource prefix="/new/gamer">
+        <file>Roc.png</file>
+        <file>S122x122Fit_2x.png</file>
+        <file>steam.png</file>
+        <file>discord.png</file>
+    </qresource>
+    <qresource prefix="/new/Menu">
+        <file>10259340_4401280.jpg</file>
+        <file>Game-Server.png</file>
+        <file>Music.png</file>
+        <file>Purple phone or tablet with orange stylus 3D illustration.png</file>
+    </qresource>
+</RCC>

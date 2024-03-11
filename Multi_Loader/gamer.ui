@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Gamer</class>
+ <widget class="QDialog" name="Gamer">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>401</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>401</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>401</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: url(:/fgsd/car.jpg)</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>0</y>
+     <width>91</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Historic</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;</string>
+   </property>
+   <property name="text">
+    <string>Gamer</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>361</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <widget class="QPushButton" name="pushButton_Discord">
+      <property name="styleSheet">
+       <string notr="true">  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .1em 1em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: rgb(209, 117, 64);
+  border-radius: 6px;
+  background: linear-gradient rgb(255, 103, 32);
+  transition: 0.2s;</string>
+      </property>
+      <property name="text">
+       <string>Discord</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Picture/dfgad.qrc">
+        <normaloff>:/new/gamer/discord.png</normaloff>:/new/gamer/discord.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="pushButton_Epic_Games">
+      <property name="styleSheet">
+       <string notr="true">  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .1em 1em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: rgb(209, 117, 64);
+  border-radius: 6px;
+  background: linear-gradient rgb(255, 103, 32);
+  transition: 0.2s;</string>
+      </property>
+      <property name="text">
+       <string>Epic Games</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Picture/dfgad.qrc">
+        <normaloff>:/new/gamer/S122x122Fit_2x.png</normaloff>:/new/gamer/S122x122Fit_2x.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QPushButton" name="pushButton_Rockstar">
+      <property name="styleSheet">
+       <string notr="true">  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .1em 1em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: rgb(209, 117, 64);
+  border-radius: 6px;
+  background: linear-gradient rgb(255, 103, 32);
+  transition: 0.2s;</string>
+      </property>
+      <property name="text">
+       <string>Rockstar Games</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Picture/dfgad.qrc">
+        <normaloff>:/new/gamer/Roc.png</normaloff>:/new/gamer/Roc.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QPushButton" name="pushButton_Steam">
+      <property name="styleSheet">
+       <string notr="true">  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .1em 1em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: rgb(209, 117, 64);
+  border-radius: 6px;
+  background: linear-gradient rgb(255, 103, 32);
+  transition: 0.2s;</string>
+      </property>
+      <property name="text">
+       <string>Steam</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Picture/dfgad.qrc">
+        <normaloff>:/new/gamer/steam.png</normaloff>:/new/gamer/steam.png</iconset>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Picture/dfgad.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Programmer</class>
+ <widget class="QDialog" name="Programmer">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>457</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>457</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>457</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: url(:/fgsd/cyb.jpg)</string>
+  </property>
+  <widget class="QLabel" name="label_Programmer">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>0</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Historic</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;</string>
+   </property>
+   <property name="text">
+    <string>Programmer</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>435</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="3" column="1">
+     <widget class="QPushButton" name="pushButton_Qt_Creator">
+      <property name="styleSheet">
+       <string notr="true">  display: inline-block;
+  color: white;
+  text-decoration: none;
+ outline: none;
+  border-width: 3px 1;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;</string>
+      </property>
+      <property name="text">
+       <string>Qt Creator(open source)</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Picture/dfgad.qrc">
+        <normaloff>:/fgsd/Qt.png</normaloff>:/fgsd/Qt.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="pushButton_IntelliJ_Community">
+      <property name="styleSheet">
+       <string notr="true">  display: inline-block;
+  color: white;
+  text-decoration: none;
+ outline: none;
+  border-width: 3px 1;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;</string>
+      </property>
+      <property name="text">
+       <string>IntelliJ IDEA Community Edition</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Picture/dfgad.qrc">
+        <normaloff>:/fgsd/IJ.jpg</normaloff>:/fgsd/IJ.jpg</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QPushButton" name="pushButton_DBeaver_Community">
+      <property name="styleSheet">
+       <string notr="true">  display: inline-block;
+  color: white;
+  text-decoration: none;
+ outline: none;
+  border-width: 3px 1;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;</string>
+      </property>
+      <property name="text">
+       <string>DBeaver Community(Windows)</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Picture/dfgad.qrc">
+        <normaloff>:/fgsd/beaver-head.png</normaloff>:/fgsd/beaver-head.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="pushButton_Py_Professional">
+      <property name="styleSheet">
+       <string notr="true">  display: inline-block;
+  color: white;
+  text-decoration: none;
+ outline: none;
+  border-width: 3px 1;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;</string>
+      </property>
+      <property name="text">
+       <string>PyCharm Professional</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Picture/dfgad.qrc">
+        <normaloff>:/fgsd/PyCharm_Icon.svg (2).png</normaloff>:/fgsd/PyCharm_Icon.svg (2).png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="pushButton_Visual_Studio_Community">
+      <property name="styleSheet">
+       <string notr="true">  display: inline-block;
+  color: white;
+  text-decoration: none;
+ outline: none;
+  border-width: 3px 1;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;</string>
+      </property>
+      <property name="text">
+       <string>Visual Studio Community</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Picture/dfgad.qrc">
+        <normaloff>:/fgsd/Product-Icon.svg</normaloff>:/fgsd/Product-Icon.svg</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QPushButton" name="pushButton_Visual_Studio_Code">
+      <property name="styleSheet">
+       <string notr="true">  display: inline-block;
+  color: white;
+  text-decoration: none;
+ outline: none;
+  border-width: 3px 1;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;</string>
+      </property>
+      <property name="text">
+       <string>Visual Studio Code (Windows)</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Picture/dfgad.qrc">
+        <normaloff>:/new/prefix1/Cod.png</normaloff>:/new/prefix1/Cod.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QPushButton" name="pushButton_Py_Community">
+      <property name="styleSheet">
+       <string notr="true">  display: inline-block;
+  color: white;
+  text-decoration: none;
+ outline: none;
+  border-width: 3px 1;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;</string>
+      </property>
+      <property name="text">
+       <string>PyCharm Community Edition</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Picture/dfgad.qrc">
+        <normaloff>:/fgsd/PyCharm_Icon.svg (2).png</normaloff>:/fgsd/PyCharm_Icon.svg (2).png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QPushButton" name="pushButton_IntelliJ_Ultimate">
+      <property name="styleSheet">
+       <string notr="true">  display: inline-block;
+  color: white;
+  text-decoration: none;
+ outline: none;
+  border-width: 3px 1;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;</string>
+      </property>
+      <property name="text">
+       <string>IntelliJ IDEA Ultimate</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Picture/dfgad.qrc">
+        <normaloff>:/fgsd/IJ.jpg</normaloff>:/fgsd/IJ.jpg</iconset>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Picture/dfgad.qrc"/>
+ </resources>
+ <connections/>
+</ui>
